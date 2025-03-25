@@ -4,7 +4,7 @@ const translations = {
         //in_logo_lang : "Oishi-Ya Japanese Fusion by Mama's House",
         in_h_nav_home: "Home",
         in_h_nav_menu: "Menu",
-        in_h_nav_contact : "Event",
+        in_h_nav_contact : "Book",
         in_h_nav_about : "About Us",
         in_h_nav_place_order: "Place Order",
         //End Nav En Lang
@@ -57,7 +57,7 @@ const translations = {
         in_foot_nav : "Links",
         in_foot_home : "Home",
         in_foot_menu : "Menu",
-        in_foot_event : "Event",
+        in_foot_event : "Book",
         in_foot_about : "About Us",
         in_foot_order : "Place Order",
         in_foot_contact : "Contact",
