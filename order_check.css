@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #333;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 9%;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.h_logo{
+    font-family: "Rock Salt", cursive;
+    background-color: black;
+    color: yellow;
+    padding: 0 13px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.order_header{
+    color: black;
+    font-weight: 900;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.shop_wrapper{
+    padding: 100px 9% 30px;
+}
+
+.section_title{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.product_content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.product_box .img_box{
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img_box img{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.img_box:hover img{
+    transform: scale(1.1);
+}
+
+.product_box .product_title{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product_box .price_and_cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: red;
+}
+
+.price_and_cart .price{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.user_info{
+    display: flex; 
+    justify-content: start; 
+    align-items: center; 
+    flex-direction: column; 
+    text-align: end;
+}
+
+.user_info input{
+    width: 80%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #ffffed;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.user_info textarea{
+    width: 80%;
+    height: 150px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #ffffed;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.user_info button{
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 360px) {
+    .product_content{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+
+    .order_header {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .h_logo {
+        font-size: 8px;
+    }
+
+    .order_header {
+        font-size: 13px;
+    }
+}
