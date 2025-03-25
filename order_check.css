@@ -152,6 +152,7 @@ header{
     }
 
     .order_header {
-        font-size: 13px;
+        text-align: end;
+        font-size: 10px;
     }
 }
