@@ -12,7 +12,7 @@ const translations = {
         in_j_hero_combi : "The flavor of Combination",
         in_j_hero_info : "We are a Filipino/Japanese-cuisine restaurant offering a wide variety of food experience in both casual and fine dining environment",
         in_j_hero_menu : "Explore Menu",
-        in_j_hero_order : "See Events",
+        in_j_hero_order : "Book Table",
         //End Hero En Lang
         //Info Store End Lang
         in_info_op : "Opening Hour",
@@ -40,7 +40,7 @@ const translations = {
         in_muk_title_two : "Sizzling / Inasal Unli Rice",
         in_muk_title_two_info : "Get ready for a sizzling feast that hits all the right spots!. Today, we’re diving into the smoky, savory world of sizzling plates and juicy chicken inasal—served hot and fresh, straight off the grill. And of course, what's a Filipino food trip without the legendary unli rice? Yup, rice lovers, this one’s for you! From the sizzle of the plate to that first bite of perfectly marinated meat, this meal is all about bold flavors, good vibes, and endless refills. Tara, kain na!",
         in_muk_intro_title : "Mukbang Seafood & Sizzling/Inasal Unli Rice",
-        in_muk_order : "Event",
+        in_muk_order : "Book",
         //End Mukbang En Lang
         //Why Us En Lang
         in_why_title : "Why Choose Our Food",
@@ -68,9 +68,9 @@ const translations = {
         //in_logo_lang : "ママズハウスが経営する美味しい日本料理のフュージョン料理",
         in_h_nav_home : "家",
         in_h_nav_menu : "メニュー",
-        in_h_nav_contact : "イベント",
+        in_h_nav_contact : "予約する",
         in_h_nav_about : "について",
-        in_h_nav_place_order: "注文する",
+        in_h_nav_place_order: "ご注文はこちら",
         //End Nav Jp Lang
         //Hero Jp Lang
         in_j_hero_combi : "組み合わせの味",
@@ -121,9 +121,9 @@ const translations = {
         in_foot_nav : "リンク",
         in_foot_home : "家",
         in_foot_menu : "メニュー",
-        in_foot_event : "イベント",
+        in_foot_event : "予約する",
         in_foot_about : "について",
-        in_foot_order : "注文する",
+        in_foot_order : "ご注文はこちら",
         in_foot_con : "接触",
         //End Footer Nav
     }
