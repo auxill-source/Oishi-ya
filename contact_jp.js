@@ -3,7 +3,7 @@ const translations = {
     //Nav En Lang
     ev_h_nav_home : "Home",
     ev_h_nav_menu : "Menu",
-    ev_h_nav_event : "Event",
+    ev_h_nav_event : "Book",
     ev_h_nav_about : "About Us",
     ev_h_nav_order : "Place Order",
     //End Nav En Lang
@@ -103,7 +103,7 @@ const translations = {
     ev_footer_link : "Links",
     ev_footer_home : "Home",
     ev_footer_menu : "Menu",
-    ev_footer_event : "Events",
+    ev_footer_event : "Book",
     ev_footer_about : "About Us",
     ev_footer_order : "Place Order",
     ev_footer_cont : "Contacts",
@@ -113,7 +113,7 @@ const translations = {
     //Nav Jp Lang
     ev_h_nav_home : "家",
     ev_h_nav_menu : "メニュー",
-    ev_h_nav_event : "イベント",
+    ev_h_nav_event : "予約する",
     ev_h_nav_about : "について",
     ev_h_nav_order : "注文する",
     //End Nav Jp Lang
@@ -214,7 +214,7 @@ const translations = {
     ev_footer_link : "リンク",
     ev_footer_home : "家",
     ev_footer_menu : "メニュー",
-    ev_footer_event : "イベント",
+    ev_footer_event : "予約する",
     ev_footer_about : "について",
     ev_footer_order : "注文する",
     ev_footer_cont : "接触",
