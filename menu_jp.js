@@ -4,7 +4,7 @@ const translations = {
         //me_logo_lang : "Oishi-Ya Japanese Fusion by Mama's House",
         me_h_nav_home : "Home",
         me_h_nav_menu : "Menu",
-        me_h_nav_event : "Event",
+        me_h_nav_event : "Book",
         me_h_nav_about : "About Us",
         me_h_nav_order : "Place Order",
         //End En Lang
@@ -66,7 +66,7 @@ const translations = {
         me_f_link : "Links",
         me_f_home: "Home",
         me_f_menu: "Menu",
-        me_f_event: "Event",
+        me_f_event: "Book",
         me_f_us: "About Us",
         me_f_order: "Place Order",
         me_f_con : "Contact",
@@ -77,9 +77,9 @@ const translations = {
         //me_logo_lang : "ママズハウスが経営する美味しい日本料理のフュージョン料理",
         me_h_nav_home : "家",
         me_h_nav_menu : "メニュー",
-        me_h_nav_event : "イベント",
+        me_h_nav_event : "予約する",
         me_h_nav_about : "について",
-        me_h_nav_order : "注文する",
+        me_h_nav_order : "ご注文はこちら",
         //End Jp Lang
         //Menu Jp Lang
         me_explore : "メニューを見る",
@@ -139,9 +139,9 @@ const translations = {
         me_f_link : "リンク",
         me_f_home: "家",
         me_f_menu: "メニュー",
-        me_f_event: "イベント",
+        me_f_event: "予約する",
         me_f_us: "私たちについて",
-        me_f_order: "注文する",
+        me_f_order: "ご注文はこちら",
         me_f_con : "接触",
         //End Footer Jp Lang
     }
